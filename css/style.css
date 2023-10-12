@@ -91,12 +91,22 @@
   display: flex;
   margin: 120px auto;
 }
-.cards{
-    height: 395px;
-    display: flex;
-    justify-content: space-between;
-    
+.sec2_title {
+    color: #e08c11;
+    font-family: Work Sans;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    justify-content: start;
+    width: 734px;
+    height: 88px;
+  }
 
+.cards {
+  height: 395px;
+  display: flex;
+  justify-content: space-between;
 }
 .card {
   width: 390px;
@@ -111,17 +121,6 @@
   align-items: flex-start;
 }
 
-.sec2_title {
-  color: #e08c11;
-  font-family: Work Sans;
-  font-size: 75px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  justify-content: start;
-  width: 734px;
-  height: 88px;
-}
 
 .card_t1 {
   color: #000;
@@ -132,10 +131,10 @@
   line-height: 100%; /* 16px */
   letter-spacing: -0.8px;
 }
-.price_part{
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+.price_part {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .card_t2 {
@@ -146,14 +145,68 @@
   font-weight: 400;
   line-height: 100%; /* 16px */
   letter-spacing: -0.8px;
+  margin-right: 229px;
 }
-
 
 .fa-cart-shopping {
   border-radius: 4px;
   background: #dcb47a;
   padding: 4px;
-  
-
 }
 
+/* footer start */
+
+.main_footer {
+  display: flex;
+  max-width: 1920px;
+  width: 100%;
+  padding: 60px 629px 60px 630px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 49px;
+  background: #262626;
+}
+.footer_h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px; /* 116.667% */
+}
+.footer_span {
+  color: #dcb47a;
+}
+
+.footer_p {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 26px */
+}
+.footer_button {
+  border-radius: 60px;
+  background: #dcb47a;
+  width: 200px;
+  height: 64px;
+  color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 19.2px */
+  text-transform: capitalize;
+}
+.footer_button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px #dcb47a, 
+  0 0 20px #dcb47a, 
+  0 0 60px #dcb47a,
+    0 0 1505px #dcb47a;
+}
