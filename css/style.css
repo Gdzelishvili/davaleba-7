@@ -1,37 +1,85 @@
-.container{
-    max-width: 1920px;
-    width: 100%;
-    margin: auto;
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+  padding-top: 130px;
 }
 
-.main_header{
-    max-width: inherit;
-    width: inherit;
-    left: 50%;
-    transform: translate(-50%);
-    position: fixed;
-    height: 130px;
-    padding: 46px 320px 45px 320px;
-    flex-wrap: nowrap;
-    gap: 706px; 
-    background: #262626;
-    justify-content: space-between;
+.main_header {
+  max-width: inherit;
+  width: inherit;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%);
+  position: fixed;
+  height: 130px;
+  padding: 46px 320px 45px 320px;
+  gap: 706px;
+  background: #262626;
+  display: flex;
+  justify-content: space-between;
 }
-.main_nav{
-    width: 535px;
+.main_nav {
+  width: 474px;
+}
+.header_ul {
+  display: flex;
+  justify-content: space-between;
+}
 
+.nav_li {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #ffffff;
 }
-ul{
-    display: flex;
-    justify-content: space-between;
+.active {
+  color: #dcb47a;
+}
+.fa-solid {
+  line-height: 36px;
+  color: #ffffff;
+  font-size: 37px;
 }
 
-.nav_li{
-    color: #FFF;
-    font-family: Work Sans;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;   
-    color: #FFFFFF; 
+/* section start */
+.section1 {
+  position: relative;
 }
+.main_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main_text {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 50%;
+  transform: translate(-50%);
+  display: flex;
+  width: 1368px;
+  height: 273px;
+  padding: 56px 120px 55px 120px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 20px 4px 0px rgba(0, 0, 0, 0.54);
+  backdrop-filter: blur(10px);
+  text-align: center;
+font-family: Work Sans;
+font-size: 82px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: #FFFFFF;
+}
+
+
+/* section 2 start */
