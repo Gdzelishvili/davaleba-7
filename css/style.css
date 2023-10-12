@@ -1,0 +1,37 @@
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+}
+
+.main_header{
+    max-width: inherit;
+    width: inherit;
+    left: 50%;
+    transform: translate(-50%);
+    position: fixed;
+    height: 130px;
+    padding: 46px 320px 45px 320px;
+    flex-wrap: nowrap;
+    gap: 706px; 
+    background: #262626;
+    justify-content: space-between;
+}
+.main_nav{
+    width: 535px;
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_li{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;   
+    color: #FFFFFF; 
+}
